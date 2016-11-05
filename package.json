@@ -4,7 +4,8 @@
   "description": "A simple quiz for Insight Promo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack-watch": "webpack -w"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,20 @@
   "bugs": {
     "url": "https://github.com/erikvinicius5/insight-promo-quiz/issues"
   },
-  "homepage": "https://github.com/erikvinicius5/insight-promo-quiz#readme"
+  "homepage": "https://github.com/erikvinicius5/insight-promo-quiz#readme",
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-loader": "^6.2.7",
+    "babel-plugin-transform-class-properties": "^6.18.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-latest": "6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
 }

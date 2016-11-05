@@ -1,1 +1,3 @@
+bundle.js
 *.log
+node_modules/
