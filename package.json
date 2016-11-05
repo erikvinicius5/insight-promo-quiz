@@ -1,0 +1,24 @@
+{
+  "name": "insight-promo-quiz",
+  "version": "0.0.1",
+  "description": "A simple quiz for Insight Promo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikvinicius5/insight-promo-quiz.git"
+  },
+  "keywords": [
+    "Quiz",
+    "Insight",
+    "Promo"
+  ],
+  "author": "Erik Vinicius Almeida, Rodrigo Correia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erikvinicius5/insight-promo-quiz/issues"
+  },
+  "homepage": "https://github.com/erikvinicius5/insight-promo-quiz#readme"
+}
