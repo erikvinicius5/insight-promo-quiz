@@ -4,12 +4,15 @@
   "description": "A simple quiz for Insight Promo",
   "main": "index.js",
   "scripts": {
-    "start": "webpack",
-    "poststart": "node-sass src/scss/main.scss public/css/bundle.css",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "postinstall": "npm run js-build",
+    "js-build": "webpack",
+    "postjs-build": "npm run css-build",
+    "css-build": "node-sass src/scss/main.scss public/css/bundle.css",
     "js-watch": "webpack -w",
     "css-watch": "node-sass -w src/scss/main.scss public/css/bundle.css",
-    "dev": "concurrently --kill-others \"npm run css-watch\" \"npm run js-watch\""
+    "dev": "concurrently --kill-others \"npm run css-watch\" \"npm run js-watch\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
