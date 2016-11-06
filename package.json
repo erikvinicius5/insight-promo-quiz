@@ -4,6 +4,8 @@
   "description": "A simple quiz for Insight Promo",
   "main": "index.js",
   "scripts": {
+    "start": "webpack",
+    "poststart": "node-sass src/scss/main.scss public/css/bundle.css",
     "test": "echo \"Error: no test specified\" && exit 1",
     "js-watch": "webpack -w",
     "css-watch": "node-sass -w src/scss/main.scss public/css/bundle.css",
