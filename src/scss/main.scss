@@ -1,0 +1,15 @@
+@import 'variables';
+@import 'base';
+
+#app {
+  /* ---------- { pages } ---------- */
+  @import 'pages/home';
+  @import 'pages/thanks';
+
+  /* ---------- { components } ---------- */
+  @import 'components/footer';
+  @import 'components/option';
+  @import 'components/pagination';
+  @import 'components/question';
+  @import 'components/suggestion';
+}

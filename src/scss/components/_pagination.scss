@@ -1,0 +1,12 @@
+.Pagination {
+  margin-top: $spacer*3;
+  text-align: center;
+
+  .pagination {
+    li {
+      margin: 0 $spacer/2;
+      width: $spacer*9;
+      border-radius: $spacer;
+    }
+  }
+}
