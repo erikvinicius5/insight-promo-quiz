@@ -77,7 +77,6 @@ class App extends React.Component {
     return (
       <div className="App">
         <img src="images/watermark.png" className={classes} />
-        <img src="images/background.jpg" className="background" />
         <Nav showHomeButton={!!(page % 2)} />
         <div className="container">{this.renderPage()}</div>
         <Footer />
