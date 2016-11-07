@@ -1,6 +1,6 @@
 export default [
   {
-    title: 'Que som te faz dançar',
+    title: 'Que som te faz dançar?',
     options: [
       'Sertanejo',
       'Reggae',
@@ -9,7 +9,7 @@ export default [
     ],
   },
   {
-    title: 'E para o ponto alto da festa',
+    title: 'E para o ponto alto da festa?',
     options: [
       'Sorteio de produtos',
       'Aula de coreografia do Michael Jackson',
@@ -18,7 +18,7 @@ export default [
     ],
   },
   {
-    title: 'Que tal um acessório',
+    title: 'Que tal um acessório?',
     options: [
       'Colares',
       'Óculos',
@@ -27,7 +27,7 @@ export default [
     ],
   },
   {
-    title: 'Qual música vai ser o ponto alto da noite',
+    title: 'Qual música vai ser o ponto alto da noite?',
     options: [
       'Show das poderosas (Anitta)',
       'Evidências (Chitãozinho e Xororó)',
@@ -37,7 +37,7 @@ export default [
     ],
   },
   {
-    title: 'Na hora da festa, o que importa mais',
+    title: 'Na hora da festa, o que importa mais?',
     options: [
       'A comida, claro!',
       'Música, com certeza.',
@@ -46,7 +46,7 @@ export default [
     ],
   },
   {
-    title: 'Que passinho não pode faltar',
+    title: 'Que passinho não pode faltar?',
     options: [
       'Macarena (Los del Rio)',
       'Poeira (Ivete Sangalo)',
@@ -55,7 +55,7 @@ export default [
     ],
   },
   {
-    title: 'Qual título você quer ganhar no fim da festa',
+    title: 'Qual título você quer ganhar no fim da festa?',
     options: [
       'O último a sair',
       'O melhor amigo da galera',
