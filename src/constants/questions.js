@@ -33,7 +33,7 @@ export default [
       'Evidências (Chitãozinho e Xororó)',
       'Não quero dinheiro (Tim Maia)',
       'La bamba (Ritchie Valens)',
-      'Dancing queem (Abba)',
+      'Dancing queen (Abba)',
     ],
   },
   {
